@@ -5,5 +5,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/swgoh-essentials/', // <-- Add this line
+  base: '/swgoh-essentials/',
+  build: {
+    outDir: 'docs'
+  }
 });
+
