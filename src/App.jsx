@@ -1,24 +1,39 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link, Navigate } from "react-router-dom";
-import PvpPage from "./pages/PvpPage";
-import PvePage from "./pages/PvePage";
+import React, { useState } from "react";
+import UnitSearchList from "./components/UnitSearchList";
 
 export default function App() {
+  const [selectedUnit, setSelectedUnit] = useState(null);
+
   return (
-    <Router basename="/swgoh-essentials">
-      <div className="p-4 min-h-screen bg-gray-900 text-white">
-        <nav className="mb-6 flex gap-4">
-          <Link to="/pvp" className="px-3 py-2 rounded bg-blue-700 hover:bg-blue-800">PvP (GAC, TW)</Link>
-          <Link to="/pve" className="px-3 py-2 rounded bg-green-700 hover:bg-green-800">PvE (TB, Raids, Conquest)</Link>
-        </nav>
-        <Routes>
-          <Route path="/pvp" element={<PvpPage />} />
-          <Route path="/pve" element={<PvePage />} />
-          <Route path="*" element={<Navigate to="/pvp" replace />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center">
+      <h1 className="text-3xl font-bold my-4">SWGOH Character Search Demo</h1>
+      <UnitSearchList onSelect={setSelectedUnit} />
+      {selectedUnit && (
+        <div className="mt-6 p-4 bg-gray-800 rounded-lg flex items-center gap-4 shadow-lg">
+          <img
+            src={`https://game-assets.swgoh.gg/tex.charui_${selectedUnit.baseId.toLowerCase()}.png`}
+            alt={selectedUnit.nameKey}
+            className="w-16 h-16 rounded"
+            onError={e => {
+              e.target.onerror = null;
+              e.target.src = "/fallback.png";
+            }}
+          />
+          <div>
+            <div className="text-xl font-bold">{selectedUnit.nameKey}</div>
+            <div className="text-sm text-gray-400">
+              Alignment: {selectedUnit.alignment}
+            </div>
+            <div className="text-sm text-gray-400">
+              Tags: {(selectedUnit.categories || []).join(", ")}
+            </div>
+          </div>
+        </div>
+      )}
+      <p className="text-gray-500 mt-8 text-sm">
+        (Click a character above to see their details. Drag-and-drop coming soon!)
+      </p>
+    </div>
   );
 }
-// This is the main App component that sets up routing and navigation
-// It uses React Router to switch between PvP and PvE pages 
+
