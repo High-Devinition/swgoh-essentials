@@ -1,0 +1,12 @@
+[
+  {
+    "id": "darth_malgus",
+    "name": "Darth Malgus",
+    "image": "/unit_images/darth_malgus.png"
+  },
+  {
+    "id": "zori_bliss",
+    "name": "Zorii Bliss",
+    "image": "/unit_images/zorii_bliss.png"
+  }
+]

@@ -1,0 +1,235 @@
+{
+    "": {
+        "Profiles": [
+            {
+                "GPUS": [
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 33024,
+                        "GraphicsFeatures": [
+                            {
+                                "FeatureID": 33,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 44,
+                                "FeatureValue": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 768,
+                        "GraphicsFeatures": [
+                            {
+                                "FeatureID": 60,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 8,
+                                "FeatureValue": "0"
+                            },
+                            {
+                                "FeatureID": 7,
+                                "FeatureValue": "2"
+                            },
+                            {
+                                "FeatureID": 31,
+                                "FeatureValue": "50"
+                            },
+                            {
+                                "FeatureID": 61,
+                                "FeatureValue": "50"
+                            },
+                            {
+                                "FeatureID": 4,
+                                "FeatureValue": ",,"
+                            },
+                            {
+                                "FeatureID": 10,
+                                "FeatureValue": "0"
+                            },
+                            {
+                                "FeatureID": 36,
+                                "FeatureValue": "119"
+                            },
+                            {
+                                "FeatureID": 37,
+                                "FeatureValue": "121"
+                            },
+                            {
+                                "FeatureID": 62,
+                                "FeatureValue": "2"
+                            },
+                            {
+                                "FeatureID": 40,
+                                "FeatureValue": "120"
+                            },
+                            {
+                                "FeatureID": 14,
+                                "FeatureValue": "32"
+                            },
+                            {
+                                "FeatureID": 11,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 63,
+                                "FeatureValue": "2"
+                            },
+                            {
+                                "FeatureID": 6,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 58,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 30,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 27,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 39,
+                                "FeatureValue": "1"
+                            }
+                        ]
+                    },
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 6656,
+                        "GraphicsFeatures": [
+                            {
+                                "FeatureID": 63,
+                                "FeatureValue": "2"
+                            },
+                            {
+                                "FeatureID": 62,
+                                "FeatureValue": "2"
+                            }
+                        ]
+                    }
+                ],
+                "ProfileID": 4,
+                "ProfileName": "Custom"
+            },
+            {
+                "GPUS": [
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 6656
+                    },
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 768,
+                        "GraphicsFeatures": [
+                            {
+                                "FeatureID": 44,
+                                "FeatureValue": "0"
+                            }
+                        ]
+                    }
+                ],
+                "ProfileID": 0,
+                "ProfileName": "HYPR-RX"
+            }
+        ]
+    },
+    "ReleaseVersion": "24.10.37.04",
+    "{725c69bb-2509-42f5-94fe-da9e379e8e67}": {
+        "Profiles": [
+            {
+                "GPUS": [
+                    {
+                        "GPUBDF": 768,
+                        "GraphicsFeatures": [
+                            {
+                                "FeatureID": 4,
+                                "FeatureValue": "0"
+                            },
+                            {
+                                "FeatureID": 12,
+                                "FeatureValue": "0"
+                            },
+                            {
+                                "FeatureID": 5,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 17,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 14,
+                                "FeatureValue": "64"
+                            },
+                            {
+                                "FeatureID": 6,
+                                "FeatureValue": "2"
+                            },
+                            {
+                                "FeatureID": 11,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 15,
+                                "FeatureValue": "0"
+                            },
+                            {
+                                "FeatureID": 9,
+                                "FeatureValue": "0"
+                            },
+                            {
+                                "FeatureID": 3,
+                                "FeatureValue": "0"
+                            },
+                            {
+                                "FeatureID": 10,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 2,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 13,
+                                "FeatureValue": "0"
+                            },
+                            {
+                                "FeatureID": 18,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 8,
+                                "FeatureValue": "2"
+                            },
+                            {
+                                "FeatureID": 44,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 45,
+                                "FeatureValue": "75"
+                            },
+                            {
+                                "FeatureID": 58,
+                                "FeatureValue": "0"
+                            }
+                        ]
+                    }
+                ],
+                "ProfileID": 4,
+                "ProfileName": "Custom"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "unitId": "darth_malgus",
+    "abilities": [
+      {
+        "name": "Unfettered Rage",
+        "modes": ["Grand Arena"]
+      }
+    ]
+  },
+  {
+    "unitId": "zori_bliss",
+    "abilities": [
+      {
+        "name": "Underworld Tactics",
+        "modes": ["Territory Wars"]
+      }
+    ]
+  }
+]
