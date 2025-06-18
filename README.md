@@ -17,3 +17,6 @@ npm run dev
 - Interactive drag & drop grid for Omicron grading by game mode
 - Dark mode by default (Tailwind CSS)
 - Easily expandable for Datacron recommendations and more!
+
+## URL
+https://high-devinition.github.io/swgoh-essentials/
